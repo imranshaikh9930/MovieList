@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  color: white;
+  background-color:rgb(150, 201, 184);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  box-sizing: border-box;
+}
+div .column {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+ 
+ 
+}
+.column {
+  display: flex;
+  float: left;
+  align-items: center;
+  width: 25%;
+  padding: 0 10px;
+  margin: 3%;
+  align-items: center;
+}
+.card_heading,.year,.card_distibutor,#demo01,.card_amount{
+font-family: 'Titillium Web', sans-serif;
+color: black;
+}
+.hover {
+  box-shadow: 2px 2px 10px rgb(19, 17, 17);
+  margin: 50px;
+  border-radius: 11px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5%;
+}
+.hover14 img {
+  width: 350px;
+  height: 20rem;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .hover14 img {
+    width: 300px;
+    height: 18rem;
+    object-fit: cover;
+  }
+  .hover14 {
+    box-shadow: 4px 4px 10px black;
+    margin: 7px;
+    padding: 5%;
+  }
+  .column {
+    float: left;
+    width: 200px;
+    padding: 0 10px;
+    margin-left: 25%;
+    justify-content: center;
+    justify-items: center;
+    display: block;
+    align-items: center;
+  }
+}
