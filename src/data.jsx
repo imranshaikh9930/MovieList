@@ -1,4 +1,4 @@
-// import avatar from "./media/avatar.jpg";
+
 let imgs = [
   "https://c4.wallpaperflare.com/wallpaper/742/883/782/avatar-2-best-movie-image-hd-avatar-2-wallpaper-preview.jpg",
   "https://wallpaperset.com/w/full/9/6/8/156023.jpg",
