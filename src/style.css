@@ -38,19 +38,19 @@ color: black;
   justify-content: center;
   padding: 5%;
 }
-.hover14 img {
+.hover img {
   width: 350px;
   height: 20rem;
   object-fit: cover;
 }
 
 @media only screen and (max-width: 600px) {
-  .hover14 img {
+  .hover img {
     width: 300px;
     height: 18rem;
     object-fit: cover;
   }
-  .hover14 {
+  .hover {
     box-shadow: 4px 4px 10px black;
     margin: 7px;
     padding: 5%;
